@@ -1,0 +1,70 @@
+// define styles for logn page
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #EDEDED;
+
+  .login-form {
+    background-color: #fff;
+    border-top: 2px solid #06874E;
+    padding: 30px;
+
+    .form-title {
+      font-size: 28px;
+	}
+	
+	.password-field, .standard-checkbox-wrapper {
+	  padding-top: 20px;
+	}
+
+	.action-btn-wrapper {
+	  position: relative;
+	  &.signin {
+		padding-top: 20px;
+	  }
+
+	  .error-label {
+		width: 100%;
+		text-align: center;
+	  }
+	}
+
+	.form-footer {
+	  max-width: 340px;
+	  padding-top: 20px;
+	  margin: 0 auto;
+	  text-align: center;
+
+	  .signup-wrapper {
+		padding: 10px 0;
+		.signup-label {
+			color: #333;
+			padding-right: 5px;
+
+		}
+	  }
+
+	  a, .btn-resend-email {
+		word-break: break-all;
+		text-decoration: underline;
+		font-weight: 700;
+		color: #000;
+		cursor: pointer;
+
+		&:hover {
+			color: #333;
+		}
+	  }
+
+	  .btn-resend-email {
+		background: transparent;
+		border: 0;
+		outline: 0;
+		font-size: 16px;
+	    text-align: center;
+	  }
+	}
+  }
+}
