@@ -17,6 +17,7 @@ function Login() {
 
   // use hook functions to update statuses in form
   const handleChangeEmail = useCallback((newEmail) => {
+    // handle email
     setEmail(newEmail);
     setEmailError(null);
   }, [setEmail, setEmailError]);
