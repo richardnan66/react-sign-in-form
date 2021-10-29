@@ -23,6 +23,7 @@ function Login() {
   }, [setEmail, setEmailError]);
 
   const handleChangePassword = useCallback((newPassword) => {
+    // handle chaning password
     setPassword(newPassword);
     setPasswordError(null);
   }, [setPassword, setPasswordError]);
